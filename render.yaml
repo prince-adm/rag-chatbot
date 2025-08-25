@@ -4,7 +4,7 @@ services:
     env: python
     plan: free
     buildCommand: "./render-build.sh"
-    startCommand: "gunicorn app:app --timeout 120"
+    startCommand: "gunicorn --workers 2 --preload app:app --timeout 120"
     envVars:
       - key: HF_TOKEN
         sync: false
