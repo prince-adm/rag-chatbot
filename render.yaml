@@ -3,7 +3,7 @@ services:
     name: rag-chatbot
     env: python
     plan: free
-    buildCommand: "fallocate -l 1G /swapfile && mkswap /swapfile && swapon /swapfile && pip install -r requirements.txt && python indexer.py"
+    buildCommand: "./render-build.sh"
     startCommand: "gunicorn app:app --timeout 120"
     envVars:
       - key: HF_TOKEN
