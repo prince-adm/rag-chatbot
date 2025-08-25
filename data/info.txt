@@ -1,0 +1,6 @@
+Gemini, developed by Google, is a multimodal artificial intelligence model. 
+It can understand and generate various types of data, including text, images, audio, and video. 
+Gemini has been released in three sizes: Ultra, Pro, and Nano.
+Ultra is the most powerful model, designed for complex tasks.
+Pro is a lighter model, designed for a wide range of applications.
+Nano is the smallest model, designed for use on mobile devices.
